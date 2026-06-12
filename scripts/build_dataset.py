@@ -56,6 +56,6 @@ df = df[keep_cols]
 # Ensure output directory exists and save the final dataset
 import os
 os.makedirs('data/processed', exist_ok=True)
-df.to_csv('data/processed/sales_may_merged.csv', index=False)
+df.to_csv('data/processed/sales_merged.csv', index=False)
 print('Dataset built successfully!')
 print(df.head())
