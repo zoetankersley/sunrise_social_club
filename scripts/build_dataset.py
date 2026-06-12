@@ -17,6 +17,7 @@ sales["Item"] = (
     .str.replace(r"\s+", " ", regex=True)
     .str.title()
 )
+sales = sales[sales["Item"] != "Custom Amount"]
 
 sales['Date'] = pd.to_datetime(sales['Date'])
 weather['Date'] = pd.to_datetime(weather['Date'])
@@ -71,13 +72,16 @@ df[["Size", "Milk", "Addons"]] = df["Modifiers_Applied"].apply(parse_modifiers)
 
 def split_addons(x):
     if pd.isna(x):
-        return pd.Series([None, None])
+        return pd.Series([0, None])
 
     parts = [p.strip().title() for p in x.split(",")]
 
     cold_foam = 1 if "Cold Foam" in parts else 0
 
-    flavors = [p for p in parts if p != "Cold Foam"]
+    flavors = [
+        p for p in parts
+        if p not in ["Cold Foam", "Sprinkles!"]
+    ]
 
     return pd.Series([
         cold_foam,
@@ -86,14 +90,68 @@ def split_addons(x):
 
 df[["Cold_Foam", "Flavor"]] = df["Addons"].apply(split_addons)
 
+df["Base"]=df["Milk"]
+df.loc[df['Item']=="Lemonade", "Base"] = "Lemonade"
+
+mask=((df['Item']=="Matcha Latte") & (df['Flavor'].fillna("").str.contains('Lemonade', case=False))) | ((df['Item']=="Iced Coffee") & (df['Flavor'].fillna("").str.contains('Lemonade', case=False)))
+df.loc[mask, "Base"] = "Lemonade"
+
+df.loc[mask, "Flavor"] = (
+    df.loc[mask, "Flavor"]
+      .str.replace("Lemonade", "", regex=False)
+      .str.replace(", ,", ",")
+      .str.strip(", ")
+)
+
+special_drinks = {
+    "Ashlen": {
+        "Item": "Matcha Latte",
+        "Base": "Lemonade",
+        "Flavor": "Strawberry",
+        "Cold_Foam": 0
+    },
+    "Aaron": {
+        "Item": "Lemonade",
+        "Base": "Lemonade",
+        "Flavor": "Strawberry, Blueberry",
+        "Cold_Foam": 0
+    },
+    "Maple Pancakes": {
+        "Item": "Matcha Latte",
+        "Base": "Whole Milk",
+        "Flavor": "Salted Maple",
+        "Cold_Foam": 1
+    },
+    "Lemon Dream": {
+        "Item": "Matcha Latte",
+        "Base": "Lemonade",
+        "Flavor": "Lemon",
+        "Cold_Foam": 1
+    }
+}
+
+for drink, attrs in special_drinks.items():
+    mask = df["Item"] == drink
+
+    df.loc[mask, "Item"] = attrs["Item"]
+    df.loc[mask, "Base"] = attrs["Base"]
+    df.loc[mask, "Flavor"] = attrs["Flavor"]
+    df.loc[mask, "Cold_Foam"] = attrs["Cold_Foam"]
+
+
+df["Signature_Drink"] = df["Item"].isin(
+    ["Ashlen", "Aaron", "Maple Pancakes", "Lemon Dream"]
+)
+
 keep_cols = [
     "Date",
     "Time",
     "Item",
+    "Base",
+    "Signature_Drink",
     "Qty",
     "Net_Sales",
     "Size",
-    "Milk",
     "Cold_Foam",
     "Flavor",
     "Avg_Temp",
