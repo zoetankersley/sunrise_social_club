@@ -1,7 +1,8 @@
 import pandas as pd
 import os
 
-sales = pd.read_csv('data/raw/item_sales_may.csv')
+import glob
+sales = pd.concat([pd.read_csv(f) for f in glob.glob("data/raw/*.csv")])
 weather = pd.read_csv('data/external/weather.csv')
 events = pd.read_csv('data/external/events.csv')
 
