@@ -18,6 +18,7 @@ sales["Item"] = (
     .str.title()
 )
 sales = sales[sales["Item"] != "Custom Amount"]
+sales["Original_Item"] = sales["Item"]
 
 sales['Date'] = pd.to_datetime(sales['Date'])
 weather['Date'] = pd.to_datetime(weather['Date'])
@@ -80,7 +81,7 @@ def split_addons(x):
 
     flavors = [
         p for p in parts
-        if p not in ["Cold Foam", "Sprinkles!"]
+        if p not in ["Cold Foam", "Sprinkles!", "Lemonade"]
     ]
 
     return pd.Series([
@@ -102,6 +103,8 @@ df.loc[mask, "Flavor"] = (
       .str.replace(", ,", ",")
       .str.strip(", ")
 )
+
+df['Signature_Drink']= df["Original_Item"].isin(["Ashlen", "Aaron", "Maple Pancakes", "Lemon Dream"])
 
 special_drinks = {
     "Ashlen": {
@@ -125,13 +128,14 @@ special_drinks = {
     "Lemon Dream": {
         "Item": "Matcha Latte",
         "Base": "Lemonade",
-        "Flavor": "Lemon",
+        "Flavor": "No Syrup",
         "Cold_Foam": 1
     }
 }
 
+
 for drink, attrs in special_drinks.items():
-    mask = df["Item"] == drink
+    mask = df["Original_Item"] == drink
 
     df.loc[mask, "Item"] = attrs["Item"]
     df.loc[mask, "Base"] = attrs["Base"]
@@ -139,13 +143,10 @@ for drink, attrs in special_drinks.items():
     df.loc[mask, "Cold_Foam"] = attrs["Cold_Foam"]
 
 
-df["Signature_Drink"] = df["Item"].isin(
-    ["Ashlen", "Aaron", "Maple Pancakes", "Lemon Dream"]
-)
-
 keep_cols = [
     "Date",
     "Time",
+    "Original_Item",
     "Item",
     "Base",
     "Signature_Drink",
