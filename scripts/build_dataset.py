@@ -10,6 +10,14 @@ sales.columns = sales.columns.str.strip().str.replace(" ", "_")
 weather.columns = weather.columns.str.strip().str.replace(" ", "_")
 events.columns = events.columns.str.strip().str.replace(" ", "_")
 
+sales["Item"] = (
+    sales["Item"]
+    .str.strip()
+    .str.lower()
+    .str.replace(r"\s+", " ", regex=True)
+    .str.title()
+)
+
 sales['Date'] = pd.to_datetime(sales['Date'])
 weather['Date'] = pd.to_datetime(weather['Date'])
 events['Date'] = pd.to_datetime(events['Date'])
@@ -38,17 +46,60 @@ for col in money_cols:
 df = df.drop(columns=["Location_x"], errors="ignore")
 df = df.rename(columns={"Location_y": "Location"})
 
+def parse_modifiers(x):
+    if pd.isna(x):
+        return pd.Series([None, None, None])
+    
+    parts = [p.strip() for p in str(x).split(",")]
+
+    size = None
+    milk = None
+    addons = []
+
+    for p in parts:
+        if "oz" in p:
+            size = p
+        elif "Milk" in p:
+            milk = p
+        else:
+            addons.append(p)
+
+    return pd.Series([size, milk, ", ".join(addons) if addons else None])
+
+
+df[["Size", "Milk", "Addons"]] = df["Modifiers_Applied"].apply(parse_modifiers)
+
+def split_addons(x):
+    if pd.isna(x):
+        return pd.Series([None, None])
+
+    parts = [p.strip().title() for p in x.split(",")]
+
+    cold_foam = 1 if "Cold Foam" in parts else 0
+
+    flavors = [p for p in parts if p != "Cold Foam"]
+
+    return pd.Series([
+        cold_foam,
+        ", ".join(flavors) if flavors else None
+    ])
+
+df[["Cold_Foam", "Flavor"]] = df["Addons"].apply(split_addons)
+
 keep_cols = [
     "Date",
+    "Time",
     "Item",
     "Qty",
     "Net_Sales",
-    "Modifiers_Applied",
+    "Size",
+    "Milk",
+    "Cold_Foam",
+    "Flavor",
     "Avg_Temp",
     "Weather_Condition",
     "Event_Type",
-    "Location",
-    "Time"
+    "Location"
 ]
 
 df = df[keep_cols]
