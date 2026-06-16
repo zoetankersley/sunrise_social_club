@@ -173,7 +173,6 @@ if "Time" in df.columns:
 else:
     df = df.sort_values("Date", ascending=False)
 
-# Ensure output directory exists and save the final dataset
 import os
 os.makedirs('data/processed', exist_ok=True)
 df.to_csv('data/processed/sales_merged.csv', index=False)
