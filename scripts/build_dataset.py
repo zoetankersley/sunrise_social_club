@@ -162,6 +162,16 @@ keep_cols = [
 ]
 
 df = df[keep_cols]
+df["Date"] = pd.to_datetime(df["Date"])
+
+if "Time" in df.columns:
+    df["DateTime"] = pd.to_datetime(
+        df["Date"].dt.strftime("%Y-%m-%d") + " " + df["Time"].astype(str),
+        errors="coerce"
+    )
+    df = df.sort_values("DateTime", ascending=False).drop(columns=["DateTime"])
+else:
+    df = df.sort_values("Date", ascending=False)
 
 # Ensure output directory exists and save the final dataset
 import os
