@@ -166,6 +166,8 @@ keep_cols = [
     "Location"
 ]
 
+df = df[df["Net_Sales"] >= 0]
+
 df = df[keep_cols]
 df["Date"] = pd.to_datetime(df["Date"])
 

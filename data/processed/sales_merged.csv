@@ -191,64 +191,64 @@ Date,Time,Original_Item,Item,Base,Signature_Drink,Qty,Net_Sales,Size,Cold_Foam,F
 2026-06-13,11:19:13,Lemonade,Lemonade,Lemonade,False,2.0,8.0,16oz,False,,83,Sunny,Market,Manteo
 2026-06-13,11:18:29,Lemonade,Lemonade,Lemonade,False,1.0,4.0,16oz,False,,83,Sunny,Market,Manteo
 2026-06-13,11:18:29,Ashlen,Matcha Latte,Lemonade,True,1.0,8.0,16oz,False,Strawberry,83,Sunny,Market,Manteo
-2026-06-13,11:16:43,Lemonade,Lemonade,Lemonade,False,1.0,4.0,16oz,False,,83,Sunny,Market,Manteo
 2026-06-13,11:16:43,Cold Brew,Cold Brew,,False,1.0,8.0,16oz,True,Vanilla,83,Sunny,Market,Manteo
+2026-06-13,11:16:43,Lemonade,Lemonade,Lemonade,False,1.0,4.0,16oz,False,,83,Sunny,Market,Manteo
 2026-06-13,11:15:11,Lemonade,Lemonade,Lemonade,False,2.0,8.0,16oz,False,,83,Sunny,Market,Manteo
 2026-06-13,11:13:08,Cold Brew,Cold Brew,,False,1.0,8.0,16oz,True,Blueberry,83,Sunny,Market,Manteo
 2026-06-13,11:13:08,Lemonade,Lemonade,Lemonade,False,1.0,4.0,16oz,False,,83,Sunny,Market,Manteo
 2026-06-13,11:11:51,Lemonade,Lemonade,Lemonade,False,1.0,4.0,,False,Strawberry,83,Sunny,Market,Manteo
 2026-06-13,11:11:51,Matcha Latte,Matcha Latte,Whole Milk,False,1.0,8.0,,True,Blueberry,83,Sunny,Market,Manteo
-2026-06-13,11:10:02,Cold Brew,Cold Brew,Whole Milk,False,1.0,8.0,16oz,True,Blueberry,83,Sunny,Market,Manteo
 2026-06-13,11:10:02,Matcha Latte,Matcha Latte,Whole Milk,False,1.0,9.0,16oz,True,Blueberry,83,Sunny,Market,Manteo
+2026-06-13,11:10:02,Cold Brew,Cold Brew,Whole Milk,False,1.0,8.0,16oz,True,Blueberry,83,Sunny,Market,Manteo
 2026-06-13,11:07:52,Matcha Latte,Matcha Latte,,False,1.0,7.0,,False,Strawberry,83,Sunny,Market,Manteo
 2026-06-13,11:07:52,Ashlen,Matcha Latte,Lemonade,True,1.0,7.0,,False,Strawberry,83,Sunny,Market,Manteo
 2026-06-13,11:07:52,Sticker,Sticker,,False,2.0,4.0,,False,,83,Sunny,Market,Manteo
+2026-06-13,11:02:48,Matcha Latte,Matcha Latte,Oat Milk,False,1.0,9.0,16oz,True,Blueberry,83,Sunny,Market,Manteo
 2026-06-13,11:02:48,Sticker,Sticker,,False,2.0,4.0,,False,,83,Sunny,Market,Manteo
 2026-06-13,11:02:48,Aaron,Lemonade,Lemonade,True,4.0,20.0,16oz,False,"Strawberry, Blueberry",83,Sunny,Market,Manteo
-2026-06-13,11:02:48,Matcha Latte,Matcha Latte,Oat Milk,False,1.0,9.0,16oz,True,Blueberry,83,Sunny,Market,Manteo
 2026-06-13,10:59:50,Lemonade,Lemonade,Lemonade,False,2.0,10.0,16oz,False,Strawberry,83,Sunny,Market,Manteo
 2026-06-13,10:59:50,Matcha Latte,Matcha Latte,Whole Milk,False,2.0,18.0,16oz,True,Strawberry,83,Sunny,Market,Manteo
 2026-06-13,10:59:50,Cold Brew,Cold Brew,Oat Milk,False,1.0,8.0,16oz,True,Vanilla,83,Sunny,Market,Manteo
 2026-06-13,10:55:25,Cold Brew,Cold Brew,,False,1.0,7.0,,True,Blueberry,83,Sunny,Market,Manteo
 2026-06-13,10:55:25,Aaron,Lemonade,Lemonade,True,1.0,4.0,,False,"Strawberry, Blueberry",83,Sunny,Market,Manteo
-2026-06-13,10:54:24,Matcha Latte,Matcha Latte,,False,1.0,8.0,12oz,True,Strawberry,83,Sunny,Market,Manteo
 2026-06-13,10:54:24,Cold Brew,Cold Brew,,False,1.0,7.0,,True,Cinn Roll,83,Sunny,Market,Manteo
+2026-06-13,10:54:24,Matcha Latte,Matcha Latte,,False,1.0,8.0,12oz,True,Strawberry,83,Sunny,Market,Manteo
 2026-06-13,10:52:58,Cold Brew,Cold Brew,Oat Milk,False,1.0,7.0,16oz,False,Vanilla,83,Sunny,Market,Manteo
 2026-06-13,10:51:57,Matcha Latte,Matcha Latte,Whole Milk,False,1.0,9.0,16oz,True,Strawberry,83,Sunny,Market,Manteo
 2026-06-13,10:50:16,Ashlen,Matcha Latte,Lemonade,True,1.0,8.0,16oz,False,Strawberry,83,Sunny,Market,Manteo
+2026-06-13,10:49:05,Aaron,Lemonade,Lemonade,True,1.0,4.0,12oz,False,"Strawberry, Blueberry",83,Sunny,Market,Manteo
 2026-06-13,10:49:05,Cold Brew,Cold Brew,Oat Milk,False,1.0,8.0,16oz,True,Vanilla,83,Sunny,Market,Manteo
 2026-06-13,10:49:05,Sticker,Sticker,,False,1.0,2.0,,False,,83,Sunny,Market,Manteo
-2026-06-13,10:49:05,Aaron,Lemonade,Lemonade,True,1.0,4.0,12oz,False,"Strawberry, Blueberry",83,Sunny,Market,Manteo
 2026-06-13,10:47:26,Matcha Latte,Matcha Latte,,False,1.0,9.0,16oz,True,Strawberry,83,Sunny,Market,Manteo
 2026-06-13,10:45:55,Matcha Latte,Matcha Latte,,False,2.0,16.0,,True,Vanilla,83,Sunny,Market,Manteo
 2026-06-13,10:43:28,Lemonade,Lemonade,Lemonade,False,1.0,5.0,16oz,False,Strawberry,83,Sunny,Market,Manteo
-2026-06-13,10:43:28,Matcha Latte,Matcha Latte,Oat Milk,False,2.0,18.0,16oz,True,Strawberry,83,Sunny,Market,Manteo
 2026-06-13,10:43:28,Sticker,Sticker,,False,1.0,2.0,,False,,83,Sunny,Market,Manteo
-2026-06-13,10:40:16,Ashlen,Matcha Latte,Lemonade,True,1.0,7.0,12oz,False,Strawberry,83,Sunny,Market,Manteo
+2026-06-13,10:43:28,Matcha Latte,Matcha Latte,Oat Milk,False,2.0,18.0,16oz,True,Strawberry,83,Sunny,Market,Manteo
 2026-06-13,10:40:16,Lemonade,Lemonade,Lemonade,False,1.0,5.0,16oz,True,,83,Sunny,Market,Manteo
+2026-06-13,10:40:16,Ashlen,Matcha Latte,Lemonade,True,1.0,7.0,12oz,False,Strawberry,83,Sunny,Market,Manteo
 2026-06-13,10:37:59,Cold Brew,Cold Brew,Whole Milk,False,1.0,7.0,16oz,False,Vanilla,83,Sunny,Market,Manteo
 2026-06-13,10:37:59,Lemonade,Lemonade,Lemonade,False,1.0,4.0,16oz,False,,83,Sunny,Market,Manteo
 2026-06-13,10:36:40,Matcha Latte,Matcha Latte,Whole Milk,False,2.0,16.0,16oz,False,Blueberry,83,Sunny,Market,Manteo
-2026-06-13,10:31:08,Lemonade,Lemonade,Lemonade,False,1.0,4.0,16oz,False,,83,Sunny,Market,Manteo
-2026-06-13,10:31:08,Cold Brew,Cold Brew,Whole Milk,False,1.0,7.0,16oz,False,Vanilla,83,Sunny,Market,Manteo
 2026-06-13,10:31:08,Lemonade,Lemonade,Lemonade,False,1.0,4.0,,False,Strawberry,83,Sunny,Market,Manteo
 2026-06-13,10:31:08,Matcha Latte,Matcha Latte,Oat Milk,False,1.0,8.0,16oz,False,Strawberry,83,Sunny,Market,Manteo
+2026-06-13,10:31:08,Cold Brew,Cold Brew,Whole Milk,False,1.0,7.0,16oz,False,Vanilla,83,Sunny,Market,Manteo
+2026-06-13,10:31:08,Lemonade,Lemonade,Lemonade,False,1.0,4.0,16oz,False,,83,Sunny,Market,Manteo
 2026-06-13,10:24:48,Cold Brew,Cold Brew,Whole Milk,False,1.0,7.0,16oz,False,Cinn Roll,83,Sunny,Market,Manteo
 2026-06-13,10:22:14,Lemonade,Lemonade,Lemonade,False,1.0,5.0,16oz,False,Strawberry,83,Sunny,Market,Manteo
 2026-06-13,10:19:00,Cold Brew,Cold Brew,Whole Milk,False,1.0,8.0,16oz,True,Vanilla,83,Sunny,Market,Manteo
 2026-06-13,10:18:02,Cold Brew,Cold Brew,,False,1.0,8.0,16oz,True,Cinn Roll,83,Sunny,Market,Manteo
 2026-06-13,10:15:31,Matcha Latte,Matcha Latte,,False,1.0,9.0,16oz,True,Blueberry,83,Sunny,Market,Manteo
-2026-06-13,10:10:58,Cold Brew,Cold Brew,Whole Milk,False,1.0,6.0,,False,Cinn Roll,83,Sunny,Market,Manteo
 2026-06-13,10:10:58,Matcha Latte,Matcha Latte,Whole Milk,False,1.0,7.0,,False,Strawberry,83,Sunny,Market,Manteo
+2026-06-13,10:10:58,Cold Brew,Cold Brew,Whole Milk,False,1.0,6.0,,False,Cinn Roll,83,Sunny,Market,Manteo
 2026-06-13,10:09:04,Cold Brew,Cold Brew,Oat Milk,False,1.0,8.0,16oz,True,Cinn Roll,83,Sunny,Market,Manteo
 2026-06-13,10:09:04,Lemonade,Lemonade,Lemonade,False,1.0,5.0,16oz,False,Strawberry,83,Sunny,Market,Manteo
 2026-06-13,10:07:37,Cold Brew,Cold Brew,,False,1.0,7.0,,True,Cinn Roll,83,Sunny,Market,Manteo
 2026-06-13,10:06:50,Lemonade,Lemonade,Lemonade,False,1.0,5.0,16oz,False,Strawberry,83,Sunny,Market,Manteo
 2026-06-13,10:06:50,Cold Brew,Cold Brew,Oat Milk,False,1.0,7.0,,True,Blueberry,83,Sunny,Market,Manteo
-2026-06-13,10:05:11,Cold Brew,Cold Brew,,False,1.0,5.0,,False,,83,Sunny,Market,Manteo
 2026-06-13,10:05:11,Aaron,Lemonade,Lemonade,True,1.0,5.0,16oz,False,"Strawberry, Blueberry",83,Sunny,Market,Manteo
-2026-06-13,10:04:09,Lemonade,Lemonade,Lemonade,False,2.0,8.0,16oz,False,,83,Sunny,Market,Manteo
+2026-06-13,10:05:11,Cold Brew,Cold Brew,,False,1.0,5.0,,False,,83,Sunny,Market,Manteo
 2026-06-13,10:04:09,Matcha Latte,Matcha Latte,,False,1.0,8.0,16oz,False,Vanilla,83,Sunny,Market,Manteo
+2026-06-13,10:04:09,Lemonade,Lemonade,Lemonade,False,2.0,8.0,16oz,False,,83,Sunny,Market,Manteo
 2026-06-13,10:01:33,Cold Brew,Cold Brew,,False,1.0,5.0,,False,,83,Sunny,Market,Manteo
 2026-06-13,10:01:33,Matcha Latte,Matcha Latte,,False,1.0,8.0,,True,Strawberry,83,Sunny,Market,Manteo
 2026-06-13,09:59:49,Matcha Latte,Matcha Latte,,False,1.0,9.0,16oz,True,Blueberry,83,Sunny,Market,Manteo
@@ -259,11 +259,11 @@ Date,Time,Original_Item,Item,Base,Signature_Drink,Qty,Net_Sales,Size,Cold_Foam,F
 2026-06-13,09:54:59,Matcha Latte,Matcha Latte,Whole Milk,False,1.0,9.0,16oz,True,Strawberry,83,Sunny,Market,Manteo
 2026-06-13,09:53:41,Matcha Latte,Matcha Latte,,False,1.0,8.0,,True,Strawberry,83,Sunny,Market,Manteo
 2026-06-13,09:53:41,Sticker,Sticker,,False,1.0,2.0,,False,,83,Sunny,Market,Manteo
-2026-06-13,09:48:06,Cold Brew,Cold Brew,,False,1.0,6.0,16oz,False,,83,Sunny,Market,Manteo
 2026-06-13,09:48:06,Cold Brew,Cold Brew,Oat Milk,False,1.0,7.0,16oz,False,Vanilla,83,Sunny,Market,Manteo
+2026-06-13,09:48:06,Cold Brew,Cold Brew,,False,1.0,6.0,16oz,False,,83,Sunny,Market,Manteo
+2026-06-13,09:45:13,Matcha Latte,Matcha Latte,,False,2.0,18.0,16oz,True,Blueberry,83,Sunny,Market,Manteo
 2026-06-13,09:45:13,Cold Brew,Cold Brew,,False,1.0,8.0,16oz,True,Vanilla,83,Sunny,Market,Manteo
 2026-06-13,09:45:13,Cold Brew,Cold Brew,,False,1.0,6.0,16oz,False,,83,Sunny,Market,Manteo
-2026-06-13,09:45:13,Matcha Latte,Matcha Latte,,False,2.0,18.0,16oz,True,Blueberry,83,Sunny,Market,Manteo
 2026-06-13,09:42:49,Cold Brew,Cold Brew,Whole Milk,False,1.0,8.0,16oz,True,Vanilla,83,Sunny,Market,Manteo
 2026-06-13,09:41:39,Aaron,Lemonade,Lemonade,True,1.0,5.0,16oz,False,"Strawberry, Blueberry",83,Sunny,Market,Manteo
 2026-06-13,09:41:00,Aaron,Lemonade,Lemonade,True,1.0,5.0,16oz,False,"Strawberry, Blueberry",83,Sunny,Market,Manteo
@@ -276,14 +276,14 @@ Date,Time,Original_Item,Item,Base,Signature_Drink,Qty,Net_Sales,Size,Cold_Foam,F
 2026-06-13,09:32:30,Cold Brew,Cold Brew,,False,1.0,8.0,16oz,True,Cinn Roll,83,Sunny,Market,Manteo
 2026-06-13,09:32:30,Matcha Latte,Matcha Latte,Whole Milk,False,1.0,9.0,16oz,True,Blueberry,83,Sunny,Market,Manteo
 2026-06-13,09:31:08,Sticker,Sticker,,False,2.0,4.0,,False,,83,Sunny,Market,Manteo
-2026-06-13,09:31:08,Cold Brew,Cold Brew,,False,1.0,7.0,,True,Blueberry,83,Sunny,Market,Manteo
 2026-06-13,09:31:08,Aaron,Lemonade,Lemonade,True,2.0,8.0,12oz,False,"Strawberry, Blueberry",83,Sunny,Market,Manteo
+2026-06-13,09:31:08,Cold Brew,Cold Brew,,False,1.0,7.0,,True,Blueberry,83,Sunny,Market,Manteo
 2026-06-13,09:29:40,Sticker,Sticker,,False,1.0,2.0,,False,,83,Sunny,Market,Manteo
 2026-06-13,09:29:40,Matcha Latte,Matcha Latte,Whole Milk,False,1.0,8.0,16oz,False,Vanilla,83,Sunny,Market,Manteo
 2026-06-13,09:28:40,Cold Brew,Cold Brew,Whole Milk,False,1.0,7.0,16oz,False,Cinn Roll,83,Sunny,Market,Manteo
 2026-06-13,09:27:30,Cold Brew,Cold Brew,Oat Milk,False,1.0,7.0,16oz,False,Cinn Roll,83,Sunny,Market,Manteo
-2026-06-13,09:26:40,Cold Brew,Cold Brew,,False,1.0,8.0,16oz,True,Blueberry,83,Sunny,Market,Manteo
 2026-06-13,09:26:40,Cold Brew,Cold Brew,,False,1.0,7.0,16oz,False,Blueberry,83,Sunny,Market,Manteo
+2026-06-13,09:26:40,Cold Brew,Cold Brew,,False,1.0,8.0,16oz,True,Blueberry,83,Sunny,Market,Manteo
 2026-06-13,09:25:33,Cold Brew,Cold Brew,,False,1.0,8.0,16oz,True,Cinn Roll,83,Sunny,Market,Manteo
 2026-06-13,09:23:58,Ashlen,Matcha Latte,Lemonade,True,1.0,8.0,16oz,False,Strawberry,83,Sunny,Market,Manteo
 2026-06-13,09:20:21,Lemonade,Lemonade,Lemonade,False,1.0,4.0,,False,Blueberry,83,Sunny,Market,Manteo
@@ -291,21 +291,21 @@ Date,Time,Original_Item,Item,Base,Signature_Drink,Qty,Net_Sales,Size,Cold_Foam,F
 2026-06-13,09:18:50,Matcha Latte,Matcha Latte,,False,1.0,9.0,16oz,True,Blueberry,83,Sunny,Market,Manteo
 2026-06-13,09:17:47,Matcha Latte,Matcha Latte,Whole Milk,False,2.0,18.0,16oz,True,Blueberry,83,Sunny,Market,Manteo
 2026-06-13,09:17:47,Sticker,Sticker,,False,1.0,2.0,,False,,83,Sunny,Market,Manteo
-2026-06-13,09:14:02,Cold Brew,Cold Brew,,False,1.0,8.0,16oz,True,Blueberry,83,Sunny,Market,Manteo
 2026-06-13,09:14:02,Sticker,Sticker,,False,2.0,4.0,,False,,83,Sunny,Market,Manteo
-2026-06-13,09:12:50,Cold Brew,Cold Brew,,False,1.0,6.0,,False,Vanilla,83,Sunny,Market,Manteo
+2026-06-13,09:14:02,Cold Brew,Cold Brew,,False,1.0,8.0,16oz,True,Blueberry,83,Sunny,Market,Manteo
 2026-06-13,09:12:50,Matcha Latte,Matcha Latte,,False,1.0,8.0,,True,Strawberry,83,Sunny,Market,Manteo
+2026-06-13,09:12:50,Cold Brew,Cold Brew,,False,1.0,6.0,,False,Vanilla,83,Sunny,Market,Manteo
 2026-06-13,09:06:47,Matcha Latte,Matcha Latte,Whole Milk,False,1.0,8.0,,True,Blueberry,83,Sunny,Market,Manteo
 2026-06-13,09:05:34,Matcha Latte,Matcha Latte,,False,1.0,8.0,16oz,True,,83,Sunny,Market,Manteo
 2026-06-13,09:04:13,Cold Brew,Cold Brew,,False,1.0,6.0,16oz,False,,83,Sunny,Market,Manteo
 2026-06-13,09:01:58,Cold Brew,Cold Brew,,False,1.0,6.0,16oz,False,,83,Sunny,Market,Manteo
 2026-06-13,09:00:28,Matcha Latte,Matcha Latte,Oat Milk,False,1.0,8.0,16oz,False,Vanilla,83,Sunny,Market,Manteo
 2026-06-13,08:59:18,Cold Brew,Cold Brew,Oat Milk,False,1.0,7.0,16oz,False,Vanilla,83,Sunny,Market,Manteo
-2026-06-13,08:56:09,Matcha Latte,Matcha Latte,Whole Milk,False,1.0,8.0,16oz,False,Vanilla,83,Sunny,Market,Manteo
 2026-06-13,08:56:09,Aaron,Lemonade,Lemonade,True,1.0,6.0,16oz,False,"Strawberry, Blueberry",83,Sunny,Market,Manteo
+2026-06-13,08:56:09,Matcha Latte,Matcha Latte,Whole Milk,False,1.0,8.0,16oz,False,Vanilla,83,Sunny,Market,Manteo
 2026-06-13,08:52:36,Matcha Latte,Matcha Latte,Whole Milk,False,1.0,8.0,,True,Strawberry,83,Sunny,Market,Manteo
-2026-06-12,09:09:15,Cold Brew,Cold Brew,Whole Milk,False,1.0,8.0,16oz,True,Salted Maple,82,Sunny,Popup,Tortugas
 2026-06-12,09:09:15,Aaron,Lemonade,Lemonade,True,1.0,4.0,12oz,False,"Strawberry, Blueberry",82,Sunny,Popup,Tortugas
+2026-06-12,09:09:15,Cold Brew,Cold Brew,Whole Milk,False,1.0,8.0,16oz,True,Salted Maple,82,Sunny,Popup,Tortugas
 2026-06-12,08:52:24,Cold Brew,Cold Brew,Whole Milk,False,1.0,8.0,16oz,True,Cinn Roll,82,Sunny,Popup,Tortugas
 2026-06-12,08:51:21,Cold Brew,Cold Brew,Whole Milk,False,1.0,8.0,16oz,True,Cinn Roll,82,Sunny,Popup,Tortugas
 2026-06-12,08:50:27,Matcha Latte,Matcha Latte,,False,1.0,9.0,16oz,True,Vanilla,82,Sunny,Popup,Tortugas
@@ -692,8 +692,8 @@ Date,Time,Original_Item,Item,Base,Signature_Drink,Qty,Net_Sales,Size,Cold_Foam,F
 2026-05-30,10:00:53,Lemonade,Lemonade,Lemonade,False,1.0,5.0,16oz,False,Strawberry,79,Sunny,Market,Manteo
 2026-05-30,09:58:12,Matcha Latte,Matcha Latte,,False,1.0,8.0,16oz,False,Strawberry,79,Sunny,Market,Manteo
 2026-05-30,09:56:55,Matcha Latte,Matcha Latte,,False,1.0,9.0,16oz,True,Strawberry,79,Sunny,Market,Manteo
-2026-05-30,09:56:55,Sticker,Sticker,,False,1.0,2.0,,False,,79,Sunny,Market,Manteo
 2026-05-30,09:56:55,Cold Brew,Cold Brew,,False,1.0,7.0,,True,Salted Maple,79,Sunny,Market,Manteo
+2026-05-30,09:56:55,Sticker,Sticker,,False,1.0,2.0,,False,,79,Sunny,Market,Manteo
 2026-05-30,09:53:53,Cold Brew,Cold Brew,,False,1.0,8.0,16oz,True,Blueberry,79,Sunny,Market,Manteo
 2026-05-30,09:52:21,Cold Brew,Cold Brew,,False,1.0,6.0,,True,,79,Sunny,Market,Manteo
 2026-05-30,09:50:55,Matcha Latte,Matcha Latte,,False,1.0,9.0,16oz,True,Strawberry,79,Sunny,Market,Manteo
@@ -704,8 +704,8 @@ Date,Time,Original_Item,Item,Base,Signature_Drink,Qty,Net_Sales,Size,Cold_Foam,F
 2026-05-30,09:45:19,Cold Brew,Cold Brew,,False,1.0,8.0,16oz,True,Cake Batter,79,Sunny,Market,Manteo
 2026-05-30,09:40:56,Matcha Latte,Matcha Latte,,False,2.0,18.0,16oz,True,Strawberry,79,Sunny,Market,Manteo
 2026-05-30,09:39:35,Matcha Latte,Matcha Latte,,False,1.0,8.0,16oz,True,,79,Sunny,Market,Manteo
-2026-05-30,09:37:21,Lemonade,Lemonade,Lemonade,False,1.0,5.0,16oz,False,Strawberry,79,Sunny,Market,Manteo
 2026-05-30,09:37:21,Cold Brew,Cold Brew,,False,2.0,16.0,16oz,True,Vanilla,79,Sunny,Market,Manteo
+2026-05-30,09:37:21,Lemonade,Lemonade,Lemonade,False,1.0,5.0,16oz,False,Strawberry,79,Sunny,Market,Manteo
 2026-05-30,09:35:26,Cold Brew,Cold Brew,,False,2.0,14.0,,True,Cake Batter,79,Sunny,Market,Manteo
 2026-05-30,09:33:36,Cold Brew,Cold Brew,,False,1.0,7.0,,True,Cake Batter,79,Sunny,Market,Manteo
 2026-05-30,09:32:46,Matcha Latte,Matcha Latte,,False,1.0,8.0,16oz,False,Blueberry,79,Sunny,Market,Manteo
@@ -715,8 +715,8 @@ Date,Time,Original_Item,Item,Base,Signature_Drink,Qty,Net_Sales,Size,Cold_Foam,F
 2026-05-30,09:23:51,Cold Brew,Cold Brew,,False,2.0,14.0,16oz,False,Strawberry,79,Sunny,Market,Manteo
 2026-05-30,09:22:08,Cold Brew,Cold Brew,,False,1.0,6.0,16oz,False,,79,Sunny,Market,Manteo
 2026-05-30,09:22:08,Matcha Latte,Matcha Latte,,False,1.0,8.0,16oz,False,Strawberry,79,Sunny,Market,Manteo
-2026-05-30,09:20:44,Matcha Latte,Matcha Latte,Whole Milk,False,2.0,16.0,16oz,False,Cake Batter,79,Sunny,Market,Manteo
 2026-05-30,09:20:44,Sticker,Sticker,,False,1.0,2.0,,False,,79,Sunny,Market,Manteo
+2026-05-30,09:20:44,Matcha Latte,Matcha Latte,Whole Milk,False,2.0,16.0,16oz,False,Cake Batter,79,Sunny,Market,Manteo
 2026-05-30,09:18:55,Matcha Latte,Matcha Latte,Oat Milk,False,1.0,8.0,12oz,True,Blueberry,79,Sunny,Market,Manteo
 2026-05-30,09:17:49,Matcha Latte,Matcha Latte,,False,2.0,18.0,16oz,True,Cake Batter,79,Sunny,Market,Manteo
 2026-05-30,09:16:33,Matcha Latte,Matcha Latte,Oat Milk,False,1.0,8.0,12oz,True,Cake Batter,79,Sunny,Market,Manteo
@@ -729,10 +729,9 @@ Date,Time,Original_Item,Item,Base,Signature_Drink,Qty,Net_Sales,Size,Cold_Foam,F
 2026-05-30,09:06:21,Cold Brew,Cold Brew,,False,1.0,7.0,16oz,True,,79,Sunny,Market,Manteo
 2026-05-30,09:05:14,Matcha Latte,Matcha Latte,,False,1.0,8.0,16oz,True,,79,Sunny,Market,Manteo
 2026-05-30,09:05:14,Cold Brew,Cold Brew,,False,1.0,7.0,16oz,True,,79,Sunny,Market,Manteo
-2026-05-30,09:03:03,Cold Brew,Cold Brew,,False,1.0,6.0,,True,,79,Sunny,Market,Manteo
 2026-05-30,09:03:03,Cold Brew,Cold Brew,,False,1.0,6.0,12oz,True,,79,Sunny,Market,Manteo
 2026-05-30,09:03:03,Matcha Latte,Matcha Latte,Oat Milk,False,1.0,7.0,,False,Vanilla,79,Sunny,Market,Manteo
-2026-05-23,13:40:44,Matcha Latte,Matcha Latte,,False,-1.0,-7.0,,False,,77,Partly Cloudy,Popup,Commercial Kitchen
+2026-05-30,09:03:03,Cold Brew,Cold Brew,,False,1.0,6.0,,True,,79,Sunny,Market,Manteo
 2026-05-23,13:38:41,Matcha Latte,Matcha Latte,,False,1.0,7.0,,False,,77,Partly Cloudy,Popup,Commercial Kitchen
 2026-05-23,11:45:36,Sticker,Sticker,,False,1.0,2.0,,False,,77,Partly Cloudy,Popup,Commercial Kitchen
 2026-05-23,11:45:36,Matcha Latte,Matcha Latte,,False,1.0,8.0,16oz,False,,77,Partly Cloudy,Popup,Commercial Kitchen
