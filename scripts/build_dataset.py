@@ -24,6 +24,10 @@ sales['Date'] = pd.to_datetime(sales['Date'])
 weather['Date'] = pd.to_datetime(weather['Date'])
 events['Date'] = pd.to_datetime(events['Date'])
 
+sales["Date"] = sales["Date"].dt.normalize()
+weather["Date"] = weather["Date"].dt.normalize()
+events["Date"] = events["Date"].dt.normalize()
+
 sales = sales.drop(columns=["Event_Type"], errors="ignore")
 
 # Merge sales with weather data
@@ -90,6 +94,7 @@ def split_addons(x):
     ])
 
 df[["Cold_Foam", "Flavor"]] = df["Addons"].apply(split_addons)
+df["Cold_Foam"] = df["Cold_Foam"].astype(bool)
 
 df["Base"]=df["Milk"]
 df.loc[df['Item']=="Lemonade", "Base"] = "Lemonade"
@@ -111,25 +116,25 @@ special_drinks = {
         "Item": "Matcha Latte",
         "Base": "Lemonade",
         "Flavor": "Strawberry",
-        "Cold_Foam": 0
+        "Cold_Foam": False
     },
     "Aaron": {
         "Item": "Lemonade",
         "Base": "Lemonade",
         "Flavor": "Strawberry, Blueberry",
-        "Cold_Foam": 0
+        "Cold_Foam": False
     },
     "Maple Pancakes": {
         "Item": "Matcha Latte",
         "Base": "Whole Milk",
         "Flavor": "Salted Maple",
-        "Cold_Foam": 1
+        "Cold_Foam": True
     },
     "Lemon Dream": {
         "Item": "Matcha Latte",
         "Base": "Lemonade",
         "Flavor": "No Syrup",
-        "Cold_Foam": 1
+        "Cold_Foam": True
     }
 }
 
