@@ -16,7 +16,7 @@ Date,Time,Original_Item,Item,Base,Signature_Drink,Qty,Net_Sales,Size,Cold_Foam,F
 2026-06-16,12:09:27,Matcha Latte,Matcha Latte,Oat Milk,False,1.0,7.0,,False,Blueberry,75,Cloudy,Market,First Flight
 2026-06-16,12:09:27,Matcha Latte,Matcha Latte,Whole Milk,False,1.0,7.0,,False,Strawberry,75,Cloudy,Market,First Flight
 2026-06-16,12:09:27,Sticker,Sticker,,False,2.0,4.0,,False,,75,Cloudy,Market,First Flight
-2026-06-16,12:09:27,Modern Fire Pottery Mug,Modern Fire Pottery Mug,,False,1.0,75.0,,False,,75,Cloudy,Market,First Flight
+2026-06-16,12:09:27,Modern Fire Pottery Mug,Mug,,False,1.0,75.0,,False,,75,Cloudy,Market,First Flight
 2026-06-16,12:05:21,Matcha Latte,Matcha Latte,,False,1.0,8.0,,True,Strawberry,75,Cloudy,Market,First Flight
 2026-06-16,12:05:21,Matcha Latte,Matcha Latte,,False,1.0,8.0,16oz,False,Blueberry,75,Cloudy,Market,First Flight
 2026-06-16,12:05:21,Sticker,Sticker,,False,1.0,2.0,,False,,75,Cloudy,Market,First Flight
@@ -50,7 +50,7 @@ Date,Time,Original_Item,Item,Base,Signature_Drink,Qty,Net_Sales,Size,Cold_Foam,F
 2026-06-16,11:22:47,Cold Brew,Cold Brew,,False,1.0,7.0,,True,Salted Maple,75,Cloudy,Market,First Flight
 2026-06-16,11:22:47,Matcha Latte,Matcha Latte,,False,1.0,8.0,,True,Salted Maple,75,Cloudy,Market,First Flight
 2026-06-16,11:21:27,Cold Brew,Cold Brew,,False,1.0,8.0,16oz,True,Salted Maple,75,Cloudy,Market,First Flight
-2026-06-16,11:21:27,Modern Fire Pottery Mug,Modern Fire Pottery Mug,,False,1.0,75.0,,False,,75,Cloudy,Market,First Flight
+2026-06-16,11:21:27,Modern Fire Pottery Mug,Mug,,False,1.0,75.0,,False,,75,Cloudy,Market,First Flight
 2026-06-16,11:19:27,Cold Brew,Cold Brew,,False,1.0,8.0,16oz,True,Salted Maple,75,Cloudy,Market,First Flight
 2026-06-16,11:19:27,Sticker,Sticker,,False,1.0,2.0,,False,,75,Cloudy,Market,First Flight
 2026-06-16,11:16:38,Matcha Latte,Matcha Latte,,False,1.0,8.0,,True,Salted Maple,75,Cloudy,Market,First Flight
@@ -413,10 +413,10 @@ Date,Time,Original_Item,Item,Base,Signature_Drink,Qty,Net_Sales,Size,Cold_Foam,F
 2026-06-11,12:16:57,Matcha Latte,Matcha Latte,,False,1.0,8.0,16oz,False,Strawberry,84,Sunny,Popup,Islands Boutique
 2026-06-11,12:13:32,Matcha Latte,Matcha Latte,Oat Milk,False,1.0,9.0,16oz,True,Strawberry,84,Sunny,Popup,Islands Boutique
 2026-06-11,12:08:20,Matcha Latte,Matcha Latte,Oat Milk,False,1.0,9.0,16oz,True,Strawberry,84,Sunny,Popup,Islands Boutique
-2026-06-07,16:01:38,Matcha Latte,Matcha Latte,Whole Milk,False,3.0,24.0,16oz,False,Strawberry,85,Sunny,No Event,Kill Devil Hills
-2026-06-07,13:44:21,Matcha Latte,Matcha Latte,,False,1.0,7.0,,False,Strawberry,85,Sunny,No Event,Kill Devil Hills
-2026-06-07,13:35:24,Matcha Latte,Matcha Latte,,False,3.0,21.0,,False,Strawberry,85,Sunny,No Event,Kill Devil Hills
-2026-06-07,11:35:25,Lemonade,Lemonade,Lemonade,False,1.0,5.0,16oz,False,Salted Maple,85,Sunny,No Event,Kill Devil Hills
+2026-06-07,16:01:38,Matcha Latte,Matcha Latte,Whole Milk,False,3.0,24.0,16oz,False,Strawberry,85,Sunny,Delivery,Kill Devil Hills
+2026-06-07,13:44:21,Matcha Latte,Matcha Latte,,False,1.0,7.0,,False,Strawberry,85,Sunny,Delivery,Kill Devil Hills
+2026-06-07,13:35:24,Matcha Latte,Matcha Latte,,False,3.0,21.0,,False,Strawberry,85,Sunny,Delivery,Kill Devil Hills
+2026-06-07,11:35:25,Lemonade,Lemonade,Lemonade,False,1.0,5.0,16oz,False,Salted Maple,85,Sunny,Delivery,Kill Devil Hills
 2026-06-06,13:12:42,Lemonade,Lemonade,Lemonade,False,3.0,15.0,16oz,False,Strawberry,86,Sunny,Market,Manteo
 2026-06-06,12:40:43,Matcha Latte,Matcha Latte,Whole Milk,False,1.0,9.0,16oz,True,Blueberry,86,Sunny,Market,Manteo
 2026-06-06,12:39:31,Matcha Latte,Matcha Latte,Whole Milk,False,1.0,9.0,16oz,True,Salted Maple,86,Sunny,Market,Manteo

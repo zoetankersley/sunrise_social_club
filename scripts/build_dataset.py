@@ -147,6 +147,8 @@ for drink, attrs in special_drinks.items():
     df.loc[mask, "Flavor"] = attrs["Flavor"]
     df.loc[mask, "Cold_Foam"] = attrs["Cold_Foam"]
 
+df.loc[df["Item"] == "Modern Fire Pottery Mug", "Item"] = "Mug"
+
 
 keep_cols = [
     "Date",
