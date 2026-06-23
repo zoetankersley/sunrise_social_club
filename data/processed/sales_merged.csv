@@ -719,10 +719,10 @@ Date,Time,Original_Item,Item,Base,Signature_Drink,Qty,Net_Sales,Size,Cold_Foam,F
 2026-06-11,12:16:57,Matcha Latte,Matcha Latte,,False,1.0,8.0,16oz,False,Strawberry,84,Sunny,Popup,Islands Boutique
 2026-06-11,12:13:32,Matcha Latte,Matcha Latte,Oat Milk,False,1.0,9.0,16oz,True,Strawberry,84,Sunny,Popup,Islands Boutique
 2026-06-11,12:08:20,Matcha Latte,Matcha Latte,Oat Milk,False,1.0,9.0,16oz,True,Strawberry,84,Sunny,Popup,Islands Boutique
-2026-06-07,16:01:38,Matcha Latte,Matcha Latte,Whole Milk,False,3.0,24.0,16oz,False,Strawberry,85,Sunny,Delivery,Kill Devil Hills
-2026-06-07,13:44:21,Matcha Latte,Matcha Latte,,False,1.0,7.0,,False,Strawberry,85,Sunny,Delivery,Kill Devil Hills
-2026-06-07,13:35:24,Matcha Latte,Matcha Latte,,False,3.0,21.0,,False,Strawberry,85,Sunny,Delivery,Kill Devil Hills
-2026-06-07,11:35:25,Lemonade,Lemonade,Lemonade,False,1.0,5.0,16oz,False,Salted Maple,85,Sunny,Delivery,Kill Devil Hills
+2026-06-07,16:01:38,Matcha Latte,Matcha Latte,Whole Milk,False,3.0,24.0,16oz,False,Strawberry,85,Sunny,Private,Kill Devil Hills
+2026-06-07,13:44:21,Matcha Latte,Matcha Latte,,False,1.0,7.0,,False,Strawberry,85,Sunny,Private,Kill Devil Hills
+2026-06-07,13:35:24,Matcha Latte,Matcha Latte,,False,3.0,21.0,,False,Strawberry,85,Sunny,Private,Kill Devil Hills
+2026-06-07,11:35:25,Lemonade,Lemonade,Lemonade,False,1.0,5.0,16oz,False,Salted Maple,85,Sunny,Private,Kill Devil Hills
 2026-06-06,13:12:42,Lemonade,Lemonade,Lemonade,False,3.0,15.0,16oz,False,Strawberry,86,Sunny,Market,Manteo
 2026-06-06,12:40:43,Matcha Latte,Matcha Latte,Whole Milk,False,1.0,9.0,16oz,True,Blueberry,86,Sunny,Market,Manteo
 2026-06-06,12:39:31,Matcha Latte,Matcha Latte,Whole Milk,False,1.0,9.0,16oz,True,Salted Maple,86,Sunny,Market,Manteo

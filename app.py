@@ -13,7 +13,6 @@ st.title("☕ Sunrise Social Club Demand Predictor")
 st.write("Predict drink demand based on event conditions.")
 
 # User Inputs
-location = st.selectbox("Location", ["Manteo", "First Flight", "Soundside"])
 event_type = st.selectbox("Event Type", ["Market", "Popup", "Private"])
 avg_temp = st.slider("Average Temperature (°F)", 50, 100, 80)
 day_of_week = st.selectbox(
@@ -33,7 +32,6 @@ def build_input():
             rows.append({
                 "Item": item,
                 "Flavor": flavor,
-                "Location": location,
                 "Event_Type": event_type,
                 "Avg_Temp": avg_temp,
                 "Day_of_Week": day_of_week,
