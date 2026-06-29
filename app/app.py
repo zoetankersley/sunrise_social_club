@@ -9,7 +9,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 model = joblib.load(os.path.join(BASE_DIR, "rf_model.pkl"))
 model_columns = joblib.load(os.path.join(BASE_DIR, "model_columns.pkl"))
 
-st.title("Sunrise Social Club Inventory Predictor")
+st.title("Sunrise Social Club: Demand Forecasting")
 
 event_type=st.selectbox('Event Type',['Market','Popup'])
 
@@ -89,4 +89,5 @@ result = inventory_calculator(grid)
 st.subheader("Predicted Demand")
 st.dataframe(result[["Item", "Predicted_Qty", "Gallons"]])
 
+st.subheader("Total Gallons by Item")
 st.bar_chart(result.groupby("Item")["Gallons"].sum())
