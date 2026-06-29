@@ -37,6 +37,7 @@ df = df.merge(events, on='Date', how='left')
 
 
 df.columns = df.columns.str.strip().str.replace(" ", "_")
+df = df[df['Event_Type'].isin(['Market', 'Popup'])]
 
 money_cols = ["Net_Sales", "Gross_Sales", "Tax", "Discounts"]
 
