@@ -13,7 +13,7 @@ st.title("Sunrise Social Club: Demand Forecasting")
 
 event_type=st.selectbox('Event Type',['Market','Popup'])
 
-location=st.selectbox('Location',['Manteo','First Flight','Soundside'])
+location=st.selectbox('Location',['Manteo','Kill Devil Hills','Nags Head', 'Duck'])
 
 month=st.slider('Month', min_value=1, max_value=12, value=6)
 
