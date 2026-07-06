@@ -15,7 +15,7 @@ event_type=st.selectbox('Event Type',['Market','Popup'])
 
 location=st.selectbox('Location',['Manteo','Kill Devil Hills','Nags Head', 'Duck'])
 
-month=st.slider('Month', min_value=1, max_value=12, value=6)
+month=st.slider('Month', min_value=5, max_value=9, value=6)
 
 temp=st.slider('Average Temperature', min_value=0, max_value=100, value=70)
 
@@ -55,14 +55,14 @@ grams_12oz = {
 }
 
 grams_16oz = {
-    "Lemonade": 275,
+    "Lemonade": 300,
     "Cold Brew": 180,
     "Matcha Latte": 50
 }
 
 def compute_effective_grams():
-    mix_16 = 0.8
-    mix_12 = 0.2
+    mix_16 = 0.7
+    mix_12 = 0.3
 
     return {
         item: mix_16 * grams_16oz[item] + mix_12 * grams_12oz[item]
